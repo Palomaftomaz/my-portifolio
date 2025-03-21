@@ -1,0 +1,109 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Estilo do Header */
+  header {
+    background-color: #228B22;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+  }
+  
+  header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  /* Estilo da foto */
+  .foto-perfil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+  }
+  
+  /* Seções */
+  section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .sobre p {
+    margin-top: 10px;
+  }
+  
+  /* Projetos */
+  .projetos {
+    background-color: #eee;
+  }
+  
+  .projeto {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .projeto h3 {
+    margin-bottom: 10px;
+  }
+  
+  .projeto a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #228B22;
+    text-decoration: none;
+  }
+  
+  .projeto a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contato */
+  .contato ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  .contato li {
+    margin-bottom: 10px;
+  }
+  
+  .contato a {
+    color: #228B22;
+    text-decoration: none;
+  }
+  
+  .contato a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ddd;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
